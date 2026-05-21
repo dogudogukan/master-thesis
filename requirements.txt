@@ -1,0 +1,3 @@
+# Convenience root requirements for both public pipeline subprojects.
+-r pipeline/patent_pipeline/requirements.txt
+-r pipeline/implementation_pipeline/requirements.txt

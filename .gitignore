@@ -1,0 +1,16 @@
+# Python caches
+**/__pycache__/
+**/*.py[cod]
+
+# Local environments
+.venv/
+**/.venv/
+
+# macOS
+**/.DS_Store
+
+# Local editor and thesis writing
+.vscode/
+analysis/
+notes/
+paper/

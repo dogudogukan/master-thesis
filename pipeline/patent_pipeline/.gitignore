@@ -1,0 +1,20 @@
+# Local environments
+.env
+.venv/
+
+# Python caches
+**/__pycache__/
+**/*.py[cod]
+
+# macOS
+**/.DS_Store
+
+# Local patent data and outputs
+data/
+results/
+runs/
+logs/
+
+# Extra local capture / scan artifacts
+extra/**/raw/
+extra/**/results/

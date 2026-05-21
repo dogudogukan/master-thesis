@@ -1,0 +1,73 @@
+# Bank Subsidiary and FinTech Arm Verification Note
+
+**Date:** February 2026
+**Dataset:** `unique_assignees_bank_mapping.csv`
+
+## Objective
+This note documents the checks used to assess whether major U.S. banks, or
+other large banking groups relevant to the sample, appear in the extracted
+assignee universe under unmapped (`is_bank=0`) subsidiary, fintech, innovation-
+lab, or holding-company names.
+
+## Review Procedure
+
+1. **Specific subsidiary and fintech-arm scan**  
+   Regex searches were run for known technology and innovation entities linked
+   to major banks.
+
+   Keywords checked included: Onyx (JPMorgan), Quorum (JPMorgan), WePay
+   (JPMorgan), Marcus (Goldman Sachs), numo (PNC), Layer 6 (TD Bank),
+   Charles River (State Street), Pershing (BNY Mellon), Elavon (U.S. Bank),
+   Paribus (Capital One), GreenSky (Goldman Sachs), Zelle / Early Warning
+   Services, and The Clearing House.
+
+   **Result:** No unmapped assignee in the review set matched these entities in
+   a way that suggested a missed bank attribution.
+
+2. **Expanded keyword scan**  
+   Unmapped assignees were cross-checked against combinations of top-50 bank
+   names and terms such as `labs`, `innovations`, `technologies`, `ventures`,
+   `capital`, and `digital`.
+
+   **Result:** The matches identified in this scan were limited to independent
+   payment networks and market-infrastructure entities such as Mastercard, Visa,
+   and DTCC. These were not treated as individual banks for the purposes of the
+   current sample.
+
+3. **Manual review of higher-volume unmapped assignees**  
+   Around 150 assignees with `is_bank=0` and at least three patents were
+   manually reviewed. Ambiguous names containing terms such as "Financial" or
+   "Holdings" (for example, *Dearborn Financial Inc.* and *Atrium Separate IP
+   Holdings*) were checked individually through web search and firm-level
+   verification.
+
+   **Result:** None of the reviewed entities could be linked with sufficient
+   confidence to a focal bank group. In the cases examined, the unmapped
+   assignees appeared to be independent technology firms, patent-holding
+   entities, or non-bank financial infrastructure providers.
+
+## Interpretation
+The review does not prove that every possible subsidiary case has been ruled
+out. It does, however, suggest that the risk of materially understating bank
+patenting through missed fintech arms or hidden subsidiary names is limited in
+the current extracted assignee universe.
+
+This pattern is also consistent with broader expectations from the literature.
+Patents can serve as signals of innovative capacity under conditions of
+information asymmetry (Spence, 1973; Long, 2002). For large banking groups,
+there are also governance, disclosure, and portfolio-management reasons to keep
+strategically important intellectual property under clearly attributable
+entities rather than scattering it across opaque structures. In practice, this
+does not imply that all bank-related innovation must appear under the parent
+company name. It does suggest, however, that major omissions should be rare
+enough to be detectable in the kinds of scans and manual checks documented
+above.
+
+## Conclusion
+Taken together, the checks reported here support the current
+`is_bank=1` mapping as a reasonable basis for the final bank sample. Within the
+reviewed assignee universe, no omitted subsidiary, fintech arm, or holding
+entity was identified that would materially change the top-50-bank patent
+counts. This conclusion should still be read as a validation result for the
+current dataset rather than as a universal claim about how banks always assign
+their patents.

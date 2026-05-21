@@ -1,0 +1,145 @@
+{
+  "banks": [
+    {
+      "name": "JPMorgan",
+      "aliases": [
+        "JPMorgan",
+        "JP Morgan",
+        "J.P. Morgan",
+        "JPMorgan Chase",
+        "JP Morgan Chase"
+      ]
+    },
+    {
+      "name": "Bank of America",
+      "aliases": [
+        "Bank of America",
+        "BofA",
+        "Merrill Lynch",
+        "Bank of America Merrill Lynch"
+      ]
+    },
+    {
+      "name": "Citi",
+      "aliases": [
+        "Citigroup",
+        "Citibank",
+        "Citi"
+      ]
+    },
+    {
+      "name": "Wells Fargo",
+      "aliases": [
+        "Wells Fargo"
+      ]
+    },
+    {
+      "name": "Capital One",
+      "aliases": [
+        "Capital One",
+        "Discover Financial Services",
+        "Discover Bank"
+      ]
+    },
+    {
+      "name": "Goldman Sachs",
+      "aliases": [
+        "Goldman Sachs"
+      ]
+    },
+    {
+      "name": "Morgan Stanley",
+      "aliases": [
+        "Morgan Stanley"
+      ]
+    },
+    {
+      "name": "USAA",
+      "aliases": [
+        "USAA",
+        "USAA Bank"
+      ]
+    },
+    {
+      "name": "American Express",
+      "aliases": [
+        "American Express",
+        "Amex"
+      ]
+    },
+    {
+      "name": "TD Bank",
+      "aliases": [
+        "TD Bank",
+        "Toronto-Dominion",
+        "Toronto Dominion"
+      ]
+    },
+    {
+      "name": "RBC",
+      "aliases": [
+        "RBC",
+        "Royal Bank of Canada"
+      ]
+    },
+    {
+      "name": "BNY Mellon",
+      "aliases": [
+        "BNY Mellon",
+        "Bank of New York Mellon",
+        "The Bank of New York Mellon"
+      ]
+    },
+    {
+      "name": "Northern Trust",
+      "aliases": [
+        "Northern Trust"
+      ]
+    },
+    {
+      "name": "Truist",
+      "aliases": [
+        "Truist",
+        "BB&T",
+        "SunTrust"
+      ]
+    },
+    {
+      "name": "Barclays",
+      "aliases": [
+        "Barclays"
+      ]
+    },
+    {
+      "name": "HSBC",
+      "aliases": [
+        "HSBC"
+      ]
+    },
+    {
+      "name": "Ally",
+      "aliases": [
+        "Ally",
+        "Ally Financial",
+        "Ally Bank"
+      ]
+    },
+    {
+      "name": "Synchrony",
+      "aliases": [
+        "Synchrony",
+        "Synchrony Financial",
+        "Synchrony Bank"
+      ]
+    },
+    {
+      "name": "U.S. Bancorp",
+      "aliases": [
+        "U.S. Bancorp",
+        "US Bancorp",
+        "U.S. Bank",
+        "US Bank"
+      ]
+    }
+  ]
+}

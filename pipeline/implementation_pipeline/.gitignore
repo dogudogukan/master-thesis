@@ -1,0 +1,15 @@
+# Local environments
+.env
+.venv/
+
+# Python caches
+**/__pycache__/
+**/*.py[cod]
+
+# macOS
+**/.DS_Store
+
+# Local implementation data and outputs
+data/
+results/
+runs/

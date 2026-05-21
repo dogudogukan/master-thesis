@@ -1,0 +1,20 @@
+patent_canonical_bank_name,bank_display_name,sec_search_entity,sec_search_aliases,sec_ticker,sec_cik,sec_form_types,is_sec_filer_candidate,manual_review_note
+JPMorgan Chase,JPMorgan Chase,JPMorgan Chase & Co.,"JPMorgan Chase & Co.|JPMorgan Chase Bank, N.A.|JPMorgan",JPM,19617,10-K|10-Q|8-K,1,Verify issuer aliases before download.
+Bank of America,Bank of America,Bank of America Corp.,"Bank of America Corp.|Bank of America Corporation|BofA",BAC,70858,10-K|10-Q|8-K,1,Verify issuer aliases before download.
+Citigroup/Citibank,Citigroup,Citigroup Inc.,"Citigroup Inc.|Citibank, N.A.|Citigroup|Citi",C,831001,10-K|10-Q|8-K,1,Include Citibank alias in exact text scans.
+Wells Fargo,Wells Fargo,Wells Fargo & Co.,"Wells Fargo & Co.|Wells Fargo & Company|Wells Fargo Bank, N.A.",WFC,72971,10-K|10-Q|8-K,1,Verify issuer aliases before download.
+Goldman Sachs,Goldman Sachs,The Goldman Sachs Group, Inc.,"The Goldman Sachs Group, Inc.|Goldman Sachs",GS,886982,10-K|10-Q|8-K,1,Verify issuer aliases before download.
+Morgan Stanley,Morgan Stanley,Morgan Stanley,"Morgan Stanley",MS,895421,10-K|10-Q|8-K,1,Verify issuer aliases before download.
+U.S. Bancorp,U.S. Bancorp,U.S. Bancorp,"U.S. Bancorp|US Bancorp",USB,36104,10-K|10-Q|8-K,1,Watch OCR variance for U.S. vs US.
+Capital One,Capital One,Capital One Financial Corp.,"Capital One Financial Corp.|Capital One Financial Corporation|Capital One Services, LLC",COF,927628,10-K|10-Q|8-K,1,Discover-related patent events may surface in 2025 filings.
+Truist/BB&T/SunTrust,Truist,Truist Financial Corp.,"Truist Financial Corp.|Truist Financial Corporation|BB&T|SunTrust",TFC,92230,10-K|10-Q|8-K,1,Legacy BB&T and SunTrust names matter for older filings.
+TD Bank,TD Bank,The Toronto-Dominion Bank,"The Toronto-Dominion Bank|TD Bank Group|TD Bank",TD,947263,40-F|6-K,1,Canadian issuer; verify form mix before download.
+BNY Mellon,BNY Mellon,The Bank of New York Mellon Corp.,"The Bank of New York Mellon Corp.|The Bank of New York Mellon Corporation|BNY Mellon",BK,1390777,10-K|10-Q|8-K,1,Verify issuer aliases before download.
+American Express,American Express,American Express Co.,"American Express Co.|American Express Company|Amex",AXP,4962,10-K|10-Q|8-K,1,Include Amex alias in exact text scans.
+HSBC,HSBC,HSBC Holdings plc,"HSBC Holdings plc|HSBC",HSBC,1089113,20-F|6-K,1,Foreign private issuer; verify form mix before download.
+USAA,USAA,USAA,"USAA|United Services Automobile Association",,,,0,USAA is not a standard SEC public filer; likely skip SEC archive scan.
+Barclays,Barclays,Barclays PLC,"Barclays PLC|Barclays",BCS,312070,20-F|6-K,1,Foreign private issuer; verify form mix before download.
+RBC,Royal Bank of Canada,Royal Bank of Canada,"Royal Bank of Canada|RBC",RY,1000275,40-F|6-K,1,Canadian issuer; verify form mix before download.
+Ally Financial,Ally,Ally Financial Inc.,"Ally Financial Inc.|Ally Financial|Ally",ALLY,40729,10-K|10-Q|8-K,1,Verify issuer aliases before download.
+Northern Trust,Northern Trust,Northern Trust Corp.,"Northern Trust Corp.|Northern Trust Corporation|Northern Trust",NTRS,73124,10-K|10-Q|8-K,1,Verify issuer aliases before download.
+Synchrony,Synchrony,Synchrony Financial,"Synchrony Financial|Synchrony Bank|Synchrony",SYF,1601712,10-K|10-Q|8-K,1,Include Synchrony Bank alias in exact text scans.
